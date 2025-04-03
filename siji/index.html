@@ -12,6 +12,7 @@
             background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(214,241,242,1) 100%);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: center;
+            min-height: 100vh;
         }
         h1, h2, h3, h4{
             font-family: 'Boldonse', Courier, monospace;
@@ -63,7 +64,7 @@
 
         <div style="max-width: 600px; margin:10px auto">
             <div class="toolbar">
-                <button id="copy-btn-html" onclick="copyToClipboard('html')" style="float: right;">📋 Copy CSS</button>
+                <button id="copy-btn-html" onclick="copyToClipboard('html')" style="float: right;">📋 Copy</button>
                 html
             </div>
             <pre id="html-content">
@@ -72,7 +73,7 @@
         </div>
         <div style="max-width: 600px; margin:10px auto">
             <div class="toolbar">
-                <button id="copy-btn-css" onclick="copyToClipboard('css')" style="float: right;">📋 Copy CSS</button>
+                <button id="copy-btn-css" onclick="copyToClipboard('css')" style="float: right;">📋 Copy</button>
                 style.css
             </div>
             <pre id="css-content"></pre>
@@ -80,7 +81,7 @@
 
         <div style="max-width: 600px; margin:10px auto">
             <div class="toolbar">
-                <button id="copy-btn-js" onclick="copyToClipboard('js')" style="float: right;">📋 Copy CSS</button>
+                <button id="copy-btn-js" onclick="copyToClipboard('js')" style="float: right;">📋 Copy</button>
                 function.js
             </div>
             <pre id="js-content"></pre>
@@ -133,7 +134,7 @@
                 btn.classList.add("copied");
 
                 setTimeout(() => {
-                    btn.textContent = "📋 Copy CSS";
+                    btn.textContent = "📋 Copy";
                     btn.classList.remove("copied");
                 }, 2000);
             });

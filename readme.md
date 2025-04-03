@@ -20,4 +20,4 @@ Visit [here]
 - Need more, feel free to contribute
 - Domisili Mana? Jawa
 
-[here]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+[here]: <https://loading-loader.pages.dev/>
